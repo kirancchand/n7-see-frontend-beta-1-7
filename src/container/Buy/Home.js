@@ -115,22 +115,6 @@ export default function Home() {
                   <ReqCard />
                   <ReqCard />
                 </Grid>
-                {/* <Box
-                    sx={{
-                      display: 'flex',
-                      justifyContent: 'flex-end',
-                      p: 1
-                    }}
-                  >
-                    <Button
-                      color="primary"
-                      endIcon={<ArrowRight />}
-                      size="small"
-                      variant="text"
-                    >
-                      View all
-                    </Button>
-                  </Box> */}
               </Box>
               <br />
               <Box>
@@ -146,16 +130,6 @@ export default function Home() {
 
           </Grid>
 
-          {/* <Grid item xs={12} md={7} lg={8}>
-              <Paper className={fixedHeightPaper}>
-               <Chart />
-              </Paper>
-            </Grid>
-            <Grid item xs={12} md={5} lg={4}>
-              <Paper className={fixedHeightPaper}>
-                <Chart />
-              </Paper>
-            </Grid> */}
         </Grid>
         <Grid container>
           <Grid item xs={12} md={7} lg={8}>
@@ -184,27 +158,6 @@ export default function Home() {
 
           </Grid>
         </Grid>
-
-        {/* <Container maxWidth="lg" className={classes.container}> */}
-        {/* <Grid container spacing={3} > */}
-        {/* //           Chart
-            // <Grid item xs={12} md={8} lg={9}>
-            //   <Paper className={fixedHeightPaper}>
-            //     <Chart />
-            //   </Paper>
-            // </Grid>
-  //           Recent Deposits
-  //           <Grid item xs={12} md={4} lg={3}>
-  //             <Paper className={fixedHeightPaper}>
-  //               <Deposits />
-  //             </Paper>
-  //           </Grid>
-  //           Recent Orders
-  //           <Grid item xs={12}>
-  //             <Paper className={classes.paper}>
-  //               <Orders />
-  //             </Paper>
-  //           </Grid> */}
       </Grid>
       <Box pt={4}>
         {/* <Copyright /> */}
